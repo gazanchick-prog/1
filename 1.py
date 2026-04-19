@@ -21,7 +21,7 @@ async def task(call: types.CallbackQuery):
     text = (f"Чтобы забрать награду, выполните задание:\n\n"
             f"Разошлите в ТТ текст: \"@zyozp дарит подарки\" {count} раз.\n"
             f"После этого отправьте скриншоты админу и переходите в бота для получения:\n"
-            f"👉 https://t.me/ИМЯ_ВТОРОГО_БОТА") # ЗАМЕНИ НА ЮЗЕРНЕЙМ ВТОРОГО БОТА
+            f"👉 https://t.me/Zyozpstarbot") # ЗАМЕНИ НА ЮЗЕРНЕЙМ ВТОРОГО БОТА
     await call.message.edit_text(text)
 
 if __name__ == '__main__':
